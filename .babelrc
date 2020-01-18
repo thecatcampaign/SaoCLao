@@ -1,0 +1,14 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    // "css-modules-transform",
+    // "react-css-modules",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ]
+  ]
+}

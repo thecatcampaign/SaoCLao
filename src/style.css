@@ -1,0 +1,11 @@
+/* purgecss start ignore */
+@tailwind base;
+/* purgecss end ignore */
+
+@tailwind components;
+.btn-soundClound {
+  @apply bg-soundClound !important;
+}
+
+
+@tailwind utilities;
