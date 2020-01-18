@@ -1,7 +1,7 @@
 import React from 'react';
 import LikerModal from './Liker.modal';
 import { useToggleModalWithContent } from '../../contexts/SingleModalContext';
-import DynamicModal from '../Common/DynamicModal';
+import DynamicModal from '../Common/DynamicContent.modal';
 
 export const TrackItemLikesCount = React.memo(({ track }) => {
   const toggleModalWithContent = useToggleModalWithContent();

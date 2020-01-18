@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'antd';
 import { useToggleModalWithContent } from '../../contexts/SingleModalContext';
-import RegisterModal from './RegisterModal';
+import RegisterModal from './Register.modal';
 
 
 export default function Register() {

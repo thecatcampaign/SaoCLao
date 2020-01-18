@@ -1,7 +1,7 @@
 import React from 'react';
 import { Spin } from 'antd';
 import { useFetchLiker } from '../../hooks/user/useFetchLiker';
-import DynamicModal from './DynamicModal';
+import DynamicModal from '../Common/DynamicContent.modal';
 
 export default function TrackItemLikerModal({ track }) {
   const { likers, loading } = useFetchLiker(track);

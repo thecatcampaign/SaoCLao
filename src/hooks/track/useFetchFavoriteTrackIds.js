@@ -26,7 +26,6 @@ export const useFetchFavoriteTrackIds = () => {
       }
     };
     if (refreshToken === true) { // false mean firebase haven't release token, so throw unauthorized error
-      console.log('fetch fa', localStorageService.getToken());
       fetchFavoriteTrackIds();
     }
   }, [refreshToken]);

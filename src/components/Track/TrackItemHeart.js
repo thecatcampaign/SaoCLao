@@ -4,7 +4,7 @@ import { useLikeTrack } from '../../hooks/track/useLikeTrack';
 import { useUnlikeTrack } from '../../hooks/track/useUnlikeTrack';
 import { localStorageService } from '../../helpers/storage.helper';
 import { useToggleModalWithContent } from '../../contexts/SingleModalContext';
-import LoginModal from '../Common/LoginModal';
+import LoginModal from '../Common/Login.modal';
 import { useIsFavoriteTrack } from '../../contexts/TrackContext';
 
 export const TrackItemHeart = React.memo(({ track }) => {

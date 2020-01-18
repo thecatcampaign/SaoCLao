@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'antd';
-import LoginModal from './LoginModal';
+import LoginModal from './Login.modal';
 import { useToggleModalWithContent } from '../../contexts/SingleModalContext';
 
 export default function Login() {

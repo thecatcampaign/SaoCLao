@@ -6,7 +6,7 @@ import Login from '../Common/Login';
 import Register from '../Common/Register';
 import UserSection from '../Common/UserSection';
 import { localStorageService } from '../../helpers/storage.helper';
-import DynamicModal from '../Common/DynamicModal';
+import DynamicModal from '../Common/DynamicContent.modal';
 import MusicPlayer from '../MusicPlayer/MusicPlayer';
 
 export default function LayoutComp({ children }) {
