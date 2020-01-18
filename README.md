@@ -1,4 +1,4 @@
-# Melophile
+# SaoCLao
 
 `SaoCLao` is a simple music app which uses [SoundCloud API](https://soundcloud.com/stream).
 It allows you listen to the right music, wherever you are. 
