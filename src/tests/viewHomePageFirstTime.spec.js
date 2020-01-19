@@ -9,11 +9,11 @@ afterEach(cleanup);
 
 it("fetch successfully tracks", async () => {
   nock("https://myBackEndApi.com")
-    .get(`/anything`)
+    .get("/anything")
     .reply(200, TRACKS);
 
   const { findByText } = render(<Index />);
-  TRACKS.collection.forEach(track => {
+  TRACKS.collection.forEach(async (track) => {
     expect(await findByText(track.name)).toBeInTheDocument();
   });
 });

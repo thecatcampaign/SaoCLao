@@ -14,11 +14,6 @@ export default function LikerModal({ track }) {
       {isZeroLikes ? (
         'Nobody Likes This Song'
       ) : (
-        // likers.map((singleLiker, i) => (
-        //     <div className="" key={i}>
-        //       {singleLiker}
-        //     </div>
-        //   ))
         <List
           itemLayout="horizontal"
           dataSource={likers}
