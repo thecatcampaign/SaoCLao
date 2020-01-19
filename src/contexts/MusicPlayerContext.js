@@ -5,7 +5,6 @@ import React, {
 import { useImmer } from 'use-immer';
 import { options, musicPlayer } from '../constants/musicPlayer.constant';
 
-import { SoundCloundApi } from '../constants/soundClound.constant';
 
 const isCurrentTrack = (trackId, currentTrack) => trackId === currentTrack.id;
 
@@ -55,7 +54,7 @@ const useMusicPlayer = (params) => {
         id: track.id,
         lyric: `${track.id}`,
         musicSrc: () => Promise.resolve(
-          `https://api.soundcloud.com/tracks/${track.id}/stream?client_id=${SoundCloundApi}`,
+          `https://api.soundcloud.com/tracks/${track.id}/stream?client_id=${process.env.SOUNDCLOUD_CLIENT_ID}`,
         ),
       });
     }
