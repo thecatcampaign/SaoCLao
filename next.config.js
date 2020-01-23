@@ -1,7 +1,9 @@
 /* eslint-disable */
 const withCss = require('@zeit/next-css')
+const withTM = require('next-transpile-modules');
 
-module.exports = withCss({
+module.exports = withCss(withTM({
+  transpileModules: ['rc-slider', 'rc-switch'],
   webpack: (config, { isServer }) => {
     if (isServer) {
       const antStyles = /antd\/.*?\/style\/css.*?/
@@ -28,4 +30,4 @@ module.exports = withCss({
   env: {
     SOUNDCLOUD_CLIENT_ID: `a281614d7f34dc30b665dfcaa3ed7505`,
   }
-})
+}))
