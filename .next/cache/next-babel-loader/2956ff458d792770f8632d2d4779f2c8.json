@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nexport default function Logo() {\n  const linearGradient = {\n    background: 'linear-gradient(#f70,#f30)'\n  };\n  return __jsx(\"button\", {\n    style: linearGradient,\n    className: \"px-4 py-2\"\n  }, \"SOUNDCLOUND\");\n}","map":null,"metadata":{},"sourceType":"module"}

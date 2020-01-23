@@ -4,6 +4,7 @@
   "description": "Next.js starter styled with Tailwind CSS",
   "main": "index.js",
   "scripts": {
+    "heroku-postbuild": "echo prevent run build in Heroku",
     "dev": "next",
     "build": "next build",
     "export": "next export",

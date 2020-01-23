@@ -1,0 +1,1 @@
+{"ast":null,"code":"import firebase from 'firebase/app';\nimport 'firebase/firestore';\nimport 'firebase/auth';\nimport 'firebase/functions';\nimport { config } from '../../firebaseConfig'; // firebase.initializeApp(config);\n\n!firebase.apps.length ? firebase.initializeApp(config) : firebase.app();\nexport { firebase };","map":null,"metadata":{},"sourceType":"module"}
