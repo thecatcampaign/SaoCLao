@@ -1,5 +1,5 @@
-# .next
+.next
 node_modules
 out
-# /firebaseConfig.js
-# /next.config.js
+/firebaseConfig.js
+/next.config.js
